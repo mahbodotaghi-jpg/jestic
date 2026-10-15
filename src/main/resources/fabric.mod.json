@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nitro",
+  "version": "${version}",
+  "name": "NITRO Client",
+  "description": "Utility client for anarchy servers.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.nitro.NitroClient"] },
+  "mixins": ["nitro.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
